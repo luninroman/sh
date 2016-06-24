@@ -1,0 +1,5 @@
+sudo ln -s /home/$USER/sh/cache /usr/local/bin/cache
+sudo ln -s /home/$USER/sh/go /usr/local/bin/go
+
+chmod +x /home/$USER/sh/cache
+chmod +x /home/$USER/sh/go

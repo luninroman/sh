@@ -1,0 +1,7 @@
+_d="$(pwd)"
+cd "$_d"
+echo '1111' | sudo -S chmod -R 777 app/cache
+sudo chmod -R 777 app/logs
+php app/console cache:clear
+sudo chmod -R 777 app/cache
+php app/console assetic:dump
