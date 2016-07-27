@@ -1,0 +1,4 @@
+# Sync symfony app with git repository
+git pull origin master
+php app/console doctrine:schema:update --force
+cache
