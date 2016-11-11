@@ -2,8 +2,10 @@ sudo ln -s /home/$USER/sh/cache /usr/local/bin/cache
 sudo ln -s /home/$USER/sh/go /usr/local/bin/go
 sudo ln -s /home/$USER/sh/sf /usr/local/bin/sf
 sudo ln -s /home/$USER/sh/synch /usr/local/bin/synch
+sudo ln -s /home/$USER/sh/bf /usr/local/bin/bf
 
 chmod +x /home/$USER/sh/cache
 chmod +x /home/$USER/sh/go
 chmod +x /home/$USER/sh/sf
 chmod +x /home/$USER/sh/synch
+chmod +x /home/$USER/sh/bf
