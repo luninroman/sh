@@ -1,7 +1,6 @@
 _d="$(pwd)"
 cd "$_d"
 echo '1111' | sudo -S chmod -R 777 app/cache
-sudo chmod -R 777 app/logs
-sudo rm -R app/cache
-sudo mkdir app/cache
+bin/phing prepare-db-for-tests
+sudo service php7.1-fpm restart
 sudo chmod -R 777 app/cache
