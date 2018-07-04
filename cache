@@ -1,7 +1,7 @@
 _d="$(pwd)"
 cd "$_d"
-echo '1111' | sudo -S chmod -R 777 app/cache
-sudo chmod -R 777 app/logs
-sudo rm -R app/cache
-sudo mkdir app/cache
-sudo chmod -R 777 app/cache
+echo '1111' | sudo -S chmod -R 777 var/cache
+sudo chmod -R 777 var/logs
+sudo rm -R var/cache
+sudo mkdir var/cache
+sudo chmod -R 777 var/cache

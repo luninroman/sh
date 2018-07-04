@@ -1,0 +1,6 @@
+_d="$(pwd)"
+cd "$_d"
+echo '1111' | sudo -S chmod -R 777 app/cache
+bin/phing prepare-db-for-tests
+sudo service php7.0-fpm restart
+sudo chmod -R 777 app/cache
